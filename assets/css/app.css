@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    background: #EFF2F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#masthead-container {
+    top: 0;
+    width: 100%;
+    z-index: 2020;
+    transform: translateY(0);
+    transition: transform .3s ease;
+    background: #fff;
+}
+
+#masthead {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#start.app-masthead,
+#end.app-masthead {
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+#start.app-masthead {
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#center.app-masthead {
+    flex: 0 1 732px;
+    min-width: 0;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#end.app-masthead {
+    min-width: 225px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#end.app-masthead {
+    flex: none;
+}
+
+.app-masthead {
+    width: 40px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+    border: none;
+    font-size: 24px;
+    vertical-align: inherit;
+}
+
+#app-logo {
+    flex: none;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    vertical-align: top;
+}
+
+#app-logo img {
+    height: 20px;
+}
+
+#notification {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#current-user {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#pagelet-container {
+    display: flex;
+    column-gap: 30px;
+}
+
+#side-nav-container {
+    background: #fff;
+    color: #000;
+    width: 240px;
+}
+
+#side-nav-items {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#side-nav-items:hover {
+    overflow-y: auto;
+}
+
+#side-nav-items ul {
+    margin: 0;
+    padding: 12px;
+    margin-bottom: 55px;
+}
+
+#side-nav-items ul li {
+    list-style: none;
+}
+
+#side-nav-items ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 12px;
+    display: block;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#side-nav-items ul li a i {
+    margin-right: 10px;
+}
+
+#side-nav-items ul li a:hover {
+    color: #000;
+    background-color: #e6e6e6;
+}
+
+#content-container {
+    padding: 12px;
+    margin-bottom: 55px;
+    flex: 1;
+}
+
+#content-container h1 {
+    font-size: 1.6em;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#side-nav-items::-webkit-scrollbar {
+    width: 8px;
+}
+
+#side-nav-items::-webkit-scrollbar-track {
+    background : #fff;
+    border-radius: 50px;
+}
+
+#side-nav-items::-webkit-scrollbar-thumb {
+    background : #3d3d3d;
+    border-radius: 50px;
+}

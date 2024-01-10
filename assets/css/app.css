@@ -48,14 +48,7 @@ body {
     height: 20px;
 }
 
-#notification {
-    font-size: 24px;
-    color: #000;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-#current-user {
+#masthead-container #masthead #end a {
     font-size: 24px;
     color: #000;
     text-decoration: none;
